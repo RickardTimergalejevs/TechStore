@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="cart.js" defer></script>
+    <script src="https://kit.fontawesome.com/88dc753d92.js" crossorigin="anonymous"></script>
+</head>
+<body onload="initSite()">
+    <header>
+        <nav>
+            <a href="index.html"><h1 class="logo">TechStore</h1></a>
+            <div class="cart_box">
+                <p class="number_products_cart"></p>
+                <a href="cart.html" class="cart_icon"><i class="fa-sharp fa-solid fa-cart-shopping"></i></i></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="cart_heading"><i class="fa-sharp fa-solid fa-cart-shopping"></i>Kundvagn</h1>
+        <div class="cart_container"></div>
+        <h3 class="total_price_result"></h3>
+        <div class="purchase_box">Tack för köp!</div>
+        <button class="buy_button"><i class="fa-solid fa-check"></i>Slutför ditt köp</button>
+    </main>
+</body>
+</html>
